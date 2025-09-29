@@ -12,13 +12,13 @@ public class CalculoImc {
     public void obterDados(){
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("qual o nome do seu aluno?");
+        System.out.print("qual o nome do seu aluno?");
         nome = leitor.nextLine();
 
-        System.out.println("Qual a altura dele(a)?");
+        System.out.print("Qual a altura dele(a)?");
         altura = leitor.nextDouble();
 
-        System.out.println("e o peso?");
+        System.out.print("e o peso?");
         peso = leitor.nextDouble();
 
         calcularImc();
